@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ecommerce Website</title>
+
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- ================= 1. PRODUCTS SECTION ================= -->
+  <section class="products-section">
+    <div class="container">
+      <h1 class="section-heading">Our Products</h1>
+      <p class="section-description">
+        Explore our best-selling gadgets at the best prices.
+      </p>
+
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <div class="product-card headphones-card d-flex flex-column justify-content-end">
+            <h2 class="product-title">Headphones</h2>
+            <p class="product-text">
+              Immersive sound with active noise cancellation and all-day comfort.
+            </p>
+            <button
+              type="button"
+              class="btn view-details-btn align-self-start"
+              data-toggle="modal"
+              data-target="#headphonesModal"
+            >
+              View Details
+            </button>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6">
+          <div class="product-card laptops-card d-flex flex-column justify-content-end">
+            <h2 class="product-title">Laptops</h2>
+            <p class="product-text">
+              Powerful, lightweight laptops built for work, study and play.
+            </p>
+            <button
+              type="button"
+              class="btn view-details-btn align-self-start"
+              data-toggle="modal"
+              data-target="#laptopsModal"
+            >
+              View Details
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 2. OFFERS SECTION ================= -->
+  <section class="offers-section">
+    <div class="container">
+      <h1 class="offers-heading">Offers</h1>
+      <p class="offers-description">
+        Grab the best deals on top categories before they are gone.
+      </p>
+
+      <div class="row">
+        <div class="col-12 col-md-4 order-md-2">
+          <div class="offer-card special-offer-card d-flex flex-column align-items-center text-center">
+            <img
+              src="https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/ecommerce-offers-special-img.png"
+              alt="special offers"
+              class="offer-img"
+            />
+            <h2 class="offer-title">Special Offers</h2>
+            <p class="offer-text">
+              Up to 50% off on selected products.
+              <span>Limited time only.</span>
+            </p>
+            <button type="button" class="btn offer-btn">Shop Now</button>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4 order-md-3">
+          <div class="offer-card appliances-card d-flex flex-column align-items-center text-center">
+            <img
+              src="https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/ecommerce-offers-appliances-img.png"
+              alt="appliances"
+              class="offer-img"
+            />
+            <h2 class="offer-title">Appliances</h2>
+            <p class="offer-text">
+              Save big on home and kitchen appliances from top brands.
+            </p>
+            <button type="button" class="btn offer-btn">Shop Now</button>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4 order-md-1">
+          <div class="offer-card credit-card-card d-flex flex-column align-items-center text-center">
+            <img
+              src="https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/ecommerce-offers-credit-card-img.png"
+              alt="credit card offers"
+              class="offer-img"
+            />
+            <h2 class="offer-title">Credit Card Offers</h2>
+            <p class="offer-text">
+              Get 10% instant discount and no-cost EMI with select cards.
+            </p>
+            <button type="button" class="btn offer-btn">Know More</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 3. TRENDING BLOGS SECTION ================= -->
+  <section class="blogs-section">
+    <div class="container">
+      <h1 class="blogs-heading">Trending Blogs</h1>
+      <p class="blogs-description">
+        Read the latest tips, trends and buying guides from our experts.
+      </p>
+
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <div class="blog-card d-flex flex-column shadow">
+            <img
+              src="https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/ecommerce-trending-blogs-1-img.png"
+              alt="blog 1"
+              class="blog-img"
+            />
+            <div class="blog-content d-flex flex-column">
+              <span class="blog-date">12 March 2024</span>
+              <h2 class="blog-title">How to Choose the Right Headphones</h2>
+              <p class="blog-text">
+                From noise cancellation to battery life, here is everything you
+                need to know before buying your next pair.
+              </p>
+              <a href="#" class="blog-link">Read More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6">
+          <div class="blog-card d-flex flex-column shadow">
+            <img
+              src="https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/ecommerce-trending-blogs-2-img.png"
+              alt="blog 2"
+              class="blog-img"
+            />
+            <div class="blog-content d-flex flex-column">
+              <span class="blog-date">28 March 2024</span>
+              <h2 class="blog-title">Top Laptops for Work and Study</h2>
+              <p class="blog-text">
+                Compare the best laptops of the year by performance, portability
+                and price to find the one that fits you.
+              </p>
+              <a href="#" class="blog-link">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PRODUCT MODALS ================= -->
+  <div class="modal fade" id="headphonesModal" tabindex="-1" role="dialog" aria-labelledby="headphonesModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="headphonesModalLabel">Headphones</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>
+            Wireless over-ear headphones with 30 hours of battery life, deep
+            bass and active noise cancellation.
+          </p>
+          <p class="modal-price">Starting at Rs 2,999</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn modal-close-btn" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="laptopsModal" tabindex="-1" role="dialog" aria-labelledby="laptopsModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="laptopsModalLabel">Laptops</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>
+            14-inch laptops with a fast processor, 16 GB RAM, a 512 GB SSD and
+            up to 10 hours of battery life.
+          </p>
+          <p class="modal-price">Starting at Rs 39,999</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn modal-close-btn" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>

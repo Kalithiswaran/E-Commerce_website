@@ -1,0 +1,289 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* ================= 1. PRODUCTS SECTION ================= */
+.products-section {
+  background-color: #ffffff;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.section-heading {
+  color: #183b56;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.section-description {
+  color: #323f4b;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.product-card {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+  min-height: 320px;
+  padding: 24px;
+  margin-bottom: 24px;
+  color: #ffffff;
+}
+
+.headphones-card {
+  background-image: url("https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/ecommerce-products-headphones-bg.png");
+}
+
+.laptops-card {
+  background-image: url("https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/ecommerce-products-laptops-bg.png");
+}
+
+.product-title {
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.product-text {
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.view-details-btn {
+  background-color: #ff9f00;
+  border: none;
+  color: #ffffff;
+  font-weight: 500;
+  padding: 8px 20px;
+  border-radius: 4px;
+}
+
+.view-details-btn:hover,
+.view-details-btn:focus {
+  background-color: #e68f00;
+  color: #ffffff;
+}
+
+.modal-title {
+  color: #183b56;
+  font-weight: 700;
+}
+
+.modal-body {
+  color: #323f4b;
+}
+
+.modal-price {
+  color: #183b56;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.modal-close-btn {
+  background-color: #183b56;
+  color: #ffffff;
+  border: none;
+}
+
+.modal-close-btn:hover {
+  background-color: #12293c;
+  color: #ffffff;
+}
+
+/* ================= 2. OFFERS SECTION ================= */
+.offers-section {
+  background-color: #ffffff;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.offers-heading {
+  color: #ad2167;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.offers-description {
+  color: #323f4b;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.offer-card {
+  border-radius: 8px;
+  padding: 24px;
+  margin-bottom: 24px;
+  color: #ffffff;
+  height: calc(100% - 24px);
+}
+
+.special-offer-card {
+  background-color: #f49541;
+}
+
+.appliances-card {
+  background-color: #dd5d97;
+}
+
+.credit-card-card {
+  background-color: #ad2167;
+}
+
+.offer-img {
+  width: 100%;
+  max-width: 220px;
+  margin-bottom: 16px;
+}
+
+.offer-title {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.offer-text {
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.offer-btn {
+  background-color: #ffffff;
+  color: #323f4b;
+  font-weight: 500;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 20px;
+  margin-top: auto;
+}
+
+.offer-btn:hover,
+.offer-btn:focus {
+  background-color: #f1f1f1;
+  color: #323f4b;
+}
+
+/* ================= 3. TRENDING BLOGS SECTION ================= */
+.blogs-section {
+  background-color: #ffffff;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.blogs-heading {
+  color: #183b56;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.blogs-description {
+  color: #959ead;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.blog-card {
+  border: 1px solid #e4e7eb;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 24px;
+  height: calc(100% - 24px);
+}
+
+.blog-img {
+  width: 100%;
+  height: auto;
+}
+
+.blog-content {
+  padding: 20px;
+  flex-grow: 1;
+}
+
+.blog-date {
+  color: #959ead;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.blog-title {
+  color: #183b56;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.blog-text {
+  color: #959ead;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.blog-link {
+  color: #ff9f00;
+  font-weight: 500;
+  margin-top: auto;
+  text-decoration: none;
+}
+
+.blog-link:hover {
+  color: #e68f00;
+  text-decoration: underline;
+}
+
+/* ================= MEDIUM DEVICES (768px and up) ================= */
+@media (min-width: 768px) {
+  .products-section,
+  .offers-section,
+  .blogs-section {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+
+  .product-card {
+    min-height: 380px;
+    margin-bottom: 0;
+  }
+
+  .product-title {
+    font-size: 28px;
+  }
+
+  .offer-card {
+    margin-bottom: 0;
+    height: 100%;
+  }
+
+  .blog-card {
+    margin-bottom: 0;
+    height: 100%;
+  }
+
+  .blog-title {
+    font-size: 22px;
+  }
+}
+
+/* ================= LARGE DEVICES (992px and up) ================= */
+@media (min-width: 992px) {
+  .product-card {
+    min-height: 440px;
+    padding: 32px;
+  }
+
+  .offer-card {
+    padding: 32px;
+  }
+
+  .offer-title {
+    font-size: 24px;
+  }
+
+  .blog-content {
+    padding: 28px;
+  }
+}
